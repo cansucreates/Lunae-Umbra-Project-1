@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags: []
   layers:
   - Default
@@ -41,3 +41,35 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 1605891079
+    locked: 0
+  - name: HairBack
+    uniqueID: 503318605
+    locked: 0
+  - name: Body
+    uniqueID: 934818143
+    locked: 0
+  - name: HairFront
+    uniqueID: 3314608541
+    locked: 0
+  - name: Dress
+    uniqueID: 2203319081
+    locked: 0
+  - name: Shirt
+    uniqueID: 2404712633
+    locked: 0
+  - name: Sweatshirt
+    uniqueID: 2726204231
+    locked: 0
+  - name: Pants
+    uniqueID: 2671631437
+    locked: 0
+  - name: Socks
+    uniqueID: 2788691259
+    locked: 0
+  - name: Shoes
+    uniqueID: 3194835441
+    locked: 0
+  m_RenderingLayers:
+  - Default
