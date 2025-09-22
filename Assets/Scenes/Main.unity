@@ -203,8 +203,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 957362030}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -336,8 +336,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 341793280}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -605,8 +605,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 422714788}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1010,8 +1010,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 422714788}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1446,16 +1446,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 341793275}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: 0bc1d4f5fd0996b4ea8d818f7d07d633, type: 3}
-  - {fileID: 21300000, guid: 363589e823fb3a7488342f549b7ff686, type: 3}
-  - {fileID: 21300000, guid: f7c5c12137adf34419a5b8d277ebc1c6, type: 3}
-  - {fileID: 21300000, guid: 7e30f0aff4f231f4eb376a437f17b40d, type: 3}
-  - {fileID: 21300000, guid: dfabfe2c38f2d5246982eaba6371b04e, type: 3}
-  target: {fileID: 1269285943}
+  manager: {fileID: 1240403410}
+  categoryIndex: 2
 --- !u!1 &416183931
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,16 +1702,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 422714783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: 91ad9e156edea9b4886b7a08f487caf4, type: 3}
-  - {fileID: 21300000, guid: 8aa55a6525958754ca822022eb7dc8bc, type: 3}
-  - {fileID: 21300000, guid: 7d1d73520d57bfd458669f5417bad7a1, type: 3}
-  - {fileID: 21300000, guid: 1c043a9014f46dc419010dbf002fcb65, type: 3}
-  - {fileID: 21300000, guid: 10ecbc97b1e139249867cea80fd4f348, type: 3}
-  target: {fileID: 1819054842}
+  manager: {fileID: 1240403410}
+  categoryIndex: 6
 --- !u!1 &424437647
 GameObject:
   m_ObjectHideFlags: 0
@@ -1801,8 +1791,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1240403410}
-        m_TargetAssemblyTypeName: ScoreChecker, Assembly-CSharp
-        m_MethodName: RollNewScore
+        m_TargetAssemblyTypeName: WardrobeManager, Assembly-CSharp
+        m_MethodName: ResetAll
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2075,8 +2065,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 806732352}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2208,8 +2198,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1985233330}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2346,8 +2336,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 598777757}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2589,17 +2579,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 598777752}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: 40700e9aabfc1494aae43608bfd411a0, type: 3}
-  - {fileID: 21300000, guid: dec24f536544e3f4e9fa321f8458bb3f, type: 3}
-  - {fileID: 21300000, guid: 2e3b062f8c3a7554686534fdde650b4b, type: 3}
-  - {fileID: 21300000, guid: d42e8e52845be8e4983f0ec2257e9d44, type: 3}
-  - {fileID: 21300000, guid: 8ff4eebdb6b797348a33b1e4d84a23dd, type: 3}
-  - {fileID: 21300000, guid: fa2ac1d342d06d14b83917b8f9ff1751, type: 3}
-  target: {fileID: 711276184}
+  manager: {fileID: 1240403410}
+  categoryIndex: 3
 --- !u!1 &641874956
 GameObject:
   m_ObjectHideFlags: 0
@@ -2651,16 +2635,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 641874956}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: 9b0563e4dbc2eea4687aef69e6f1826b, type: 3}
-  - {fileID: 21300000, guid: fe6455a6edbbe2a46b5a6d398c70acb7, type: 3}
-  - {fileID: 21300000, guid: f1bc0269f93582048b5b5db8c99f0bdc, type: 3}
-  - {fileID: 21300000, guid: e5a51396f238fd546b19694e73b153b9, type: 3}
-  - {fileID: 21300000, guid: 5326704ba7b735d4da0b433fd78a7321, type: 3}
-  target: {fileID: 533124716}
+  manager: {fileID: 1240403410}
+  categoryIndex: 5
 --- !u!114 &641874959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3389,19 +3368,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 806732347}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: d1a524d4656301b49b229cbe6c763567, type: 3}
-  - {fileID: 21300000, guid: f17fb5bfab8aa414ebee89b14b714a12, type: 3}
-  - {fileID: 21300000, guid: 05603ed7b0361e94085beca618581c6e, type: 3}
-  - {fileID: 21300000, guid: 7ef19d7a67323f2479342dc773d09773, type: 3}
-  - {fileID: 21300000, guid: 374dd774b587c8d42bc5cfeef9126f19, type: 3}
-  - {fileID: 21300000, guid: b07ebd892bcdeb546bf0490d668015eb, type: 3}
-  - {fileID: 21300000, guid: 9137142e8c0084648a7e7e611519ca28, type: 3}
-  - {fileID: 21300000, guid: b68d577b94adf9b4eb1d115675a69440, type: 3}
-  target: {fileID: 1874778145}
+  manager: {fileID: 1240403410}
+  categoryIndex: 0
 --- !u!1 &863918612
 GameObject:
   m_ObjectHideFlags: 0
@@ -3486,8 +3457,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 641874958}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3619,8 +3590,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 957362030}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3752,8 +3723,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1240403410}
-        m_TargetAssemblyTypeName: ScoreChecker, Assembly-CSharp
-        m_MethodName: ConfirmScore
+        m_TargetAssemblyTypeName: WardrobeManager, Assembly-CSharp
+        m_MethodName: Evaluate
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4162,16 +4133,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 957362025}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: 7ee53e64db7cc514e89b7ab5b2c07638, type: 3}
-  - {fileID: 21300000, guid: 3b1bd61baa61ced41a309bdfdfb6ac09, type: 3}
-  - {fileID: 21300000, guid: e0aaaf0bf8eb0144bb1d96ff6d6989f4, type: 3}
-  - {fileID: 21300000, guid: e6d7261b9b5bba24ca998b398966c44a, type: 3}
-  - {fileID: 21300000, guid: c6c9364c637c4f94982cf6c403db2b2e, type: 3}
-  target: {fileID: 2141080272}
+  manager: {fileID: 1240403410}
+  categoryIndex: 4
 --- !u!1 &990766303
 GameObject:
   m_ObjectHideFlags: 0
@@ -4752,8 +4718,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 341793280}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -4963,12 +4929,123 @@ MonoBehaviour:
   m_GameObject: {fileID: 1240403409}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1d2d0e8bea391f0458d2fe022dc1930c, type: 3}
+  m_Script: {fileID: 11500000, guid: ef505be65dbda7940860bd0cb596f659, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  categories:
+  - categoryName: Shirt
+    target: {fileID: 1874778145}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: d1a524d4656301b49b229cbe6c763567, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: f17fb5bfab8aa414ebee89b14b714a12, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 05603ed7b0361e94085beca618581c6e, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: Pants
+    target: {fileID: 1652242086}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: f046280499b34b6448307ef030fbddfa, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 8cf8f8dfa81e53f4ca189a0381c32496, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 0e51d435811fb0f4c8d76d2d1833be97, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: Dress
+    target: {fileID: 1269285943}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 0bc1d4f5fd0996b4ea8d818f7d07d633, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 363589e823fb3a7488342f549b7ff686, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: f7c5c12137adf34419a5b8d277ebc1c6, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: Socks
+    target: {fileID: 711276184}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 40700e9aabfc1494aae43608bfd411a0, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: dec24f536544e3f4e9fa321f8458bb3f, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 2e3b062f8c3a7554686534fdde650b4b, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: Sweater
+    target: {fileID: 2141080272}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 7ee53e64db7cc514e89b7ab5b2c07638, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 3b1bd61baa61ced41a309bdfdfb6ac09, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: e0aaaf0bf8eb0144bb1d96ff6d6989f4, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: Shoes
+    target: {fileID: 533124716}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 9b0563e4dbc2eea4687aef69e6f1826b, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: fe6455a6edbbe2a46b5a6d398c70acb7, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: f1bc0269f93582048b5b5db8c99f0bdc, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: HairFront
+    target: {fileID: 1819054842}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 91ad9e156edea9b4886b7a08f487caf4, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 8aa55a6525958754ca822022eb7dc8bc, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 7d1d73520d57bfd458669f5417bad7a1, type: 3}
+      style: 2
+    currentIndex: 0
+  - categoryName: HairBack
+    target: {fileID: 429876526}
+    options:
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 654be1276c8fa3f47bf96410d8122e35, type: 3}
+      style: 0
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 04b833bf58877db48bf6efc7d084528d, type: 3}
+      style: 1
+    - ItemName: 
+      sprite: {fileID: 21300000, guid: 5ae2832235223764cb0b008f7cb6701c, type: 3}
+      style: 2
+    currentIndex: 0
+  targetStyle: 0
+  successThreshold: 70
   scoreText: {fileID: 74008790}
-  resultText: {fileID: 269243655}
-  themeText: {fileID: 102479616}
+  dialogueText: {fileID: 269243655}
+  targetStyleText: {fileID: 102479616}
+  successLines:
+  - Success!
+  failLines:
+  - You suck!
 --- !u!4 &1240403411
 Transform:
   m_ObjectHideFlags: 0
@@ -5481,8 +5558,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1859312914}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6022,8 +6099,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 641874958}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6155,8 +6232,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1859312914}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -6712,6 +6789,7 @@ RectTransform:
   - {fileID: 424437648}
   - {fileID: 872681135}
   - {fileID: 102479618}
+  - {fileID: 1804285794}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -6944,8 +7022,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 806732352}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7077,8 +7155,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1985233330}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: NextOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Next
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7125,6 +7203,139 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1798580031}
+  m_CullTransparentMesh: 1
+--- !u!1 &1804285793
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1804285794}
+  - component: {fileID: 1804285797}
+  - component: {fileID: 1804285796}
+  - component: {fileID: 1804285795}
+  m_Layer: 5
+  m_Name: Randomizer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1804285794
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804285793}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1999146127}
+  m_Father: {fileID: 1594353646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 433, y: -484}
+  m_SizeDelta: {x: 160, y: 30}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1804285795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804285793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1804285796}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1240403410}
+        m_TargetAssemblyTypeName: WardrobeManager, Assembly-CSharp
+        m_MethodName: RandomizeTargetStyle
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1804285796
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804285793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1804285797
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804285793}
   m_CullTransparentMesh: 1
 --- !u!212 &1819054842 stripped
 SpriteRenderer:
@@ -7246,14 +7457,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1859312909}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: 654be1276c8fa3f47bf96410d8122e35, type: 3}
-  - {fileID: 21300000, guid: 04b833bf58877db48bf6efc7d084528d, type: 3}
-  - {fileID: 21300000, guid: 5ae2832235223764cb0b008f7cb6701c, type: 3}
-  target: {fileID: 429876526}
+  manager: {fileID: 1240403410}
+  categoryIndex: 7
 --- !u!212 &1874778145 stripped
 SpriteRenderer:
   m_CorrespondingSourceObject: {fileID: 2683292336364030080, guid: d77c45f7a1d8d84498a2ac5b147ef3ad, type: 3}
@@ -7615,8 +7823,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 598777757}
-        m_TargetAssemblyTypeName: ClothingChanger, Assembly-CSharp
-        m_MethodName: PrevOption
+        m_TargetAssemblyTypeName: CategoryRow, Assembly-CSharp
+        m_MethodName: Prev
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -7915,19 +8123,147 @@ MonoBehaviour:
   m_GameObject: {fileID: 1985233325}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32fb4a8a957b37e4b8d7e83ebc6980a1, type: 3}
+  m_Script: {fileID: 11500000, guid: b395e2c75a9bcf9408188417d32248eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  options:
-  - {fileID: 21300000, guid: f046280499b34b6448307ef030fbddfa, type: 3}
-  - {fileID: 21300000, guid: 8cf8f8dfa81e53f4ca189a0381c32496, type: 3}
-  - {fileID: 21300000, guid: 0e51d435811fb0f4c8d76d2d1833be97, type: 3}
-  - {fileID: 21300000, guid: 1cbd6c09167a8cf42a2ce76b8ebc68a5, type: 3}
-  - {fileID: 21300000, guid: 79e75f518f14c3f40b6efa9df7c31c6a, type: 3}
-  - {fileID: 21300000, guid: 6b59ed5ffb175e940a35cde38c0cfbd8, type: 3}
-  - {fileID: 21300000, guid: 1bd75be0dd9d74b41ad06cf68b66ea6c, type: 3}
-  - {fileID: 21300000, guid: 27b05f2dbec9ead4c823f3f8c5048e95, type: 3}
-  target: {fileID: 1652242086}
+  manager: {fileID: 1240403410}
+  categoryIndex: 1
+--- !u!1 &1999146126
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1999146127}
+  - component: {fileID: 1999146129}
+  - component: {fileID: 1999146128}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1999146127
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999146126}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1804285794}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1999146128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999146126}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Theme
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4281479730
+  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 24
+  m_fontSizeBase: 24
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1999146129
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1999146126}
+  m_CullTransparentMesh: 1
 --- !u!1 &2050697451
 GameObject:
   m_ObjectHideFlags: 0
