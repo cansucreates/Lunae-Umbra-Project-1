@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 665f0353ff4131748a59c8573b1fd0d1
+guid: 9443be258089820448c9e2f6bba584f7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 1921705190961776229
-    second: Settings Background (1)_0
+      213: 517371522738387632
+    second: Rectangle 28_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Settings Background (1)_0
+      name: Rectangle 28_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 691
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5660d4680b44baa10800000000000000
-      internalID: 1921705190961776229
+      spriteID: 0ba79b5a8a21e2700800000000000000
+      internalID: 517371522738387632
       vertices: []
       indices: 
       edges: []

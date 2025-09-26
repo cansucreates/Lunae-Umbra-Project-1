@@ -153,7 +153,7 @@ public class WardrobeManager : MonoBehaviour
             (validCategories > 0) ? Mathf.Round((totalScore / validCategories) * 1000f) / 10f : 0f;
 
         if (scoreText)
-            scoreText.text = $"Skor: {rounded}%";
+            scoreText.text = $"Score: {rounded}%";
         bool success = rounded >= successThreshold;
         if (dialogueText)
             dialogueText.text = success ? Pick(successLines) : Pick(failLines);
@@ -176,7 +176,7 @@ public class WardrobeManager : MonoBehaviour
     void UpdateTargetStyleLabel()
     {
         if (targetStyleText != null)
-            targetStyleText.text = $"Hedef Stil: {targetStyle}";
+            targetStyleText.text = $"Theme: {targetStyle}";
     }
 
     public void ResetAll()
@@ -185,7 +185,7 @@ public class WardrobeManager : MonoBehaviour
             c.currentIndex = -1;
         RefreshAllTargets();
         if (scoreText)
-            scoreText.text = "Skor: -";
+            scoreText.text = "Score: -";
         if (dialogueText)
             dialogueText.text = "";
     }
