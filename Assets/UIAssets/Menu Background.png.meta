@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b0919854cb8f1804294ecd8b7104baea
+guid: d8d9442d8cc71514591061937a04496d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3833115264512551035
-    second: Credits Background (1)_0
+      213: 1267357601521407412
+    second: Credits Background (3)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Credits Background (1)_0
+      name: Credits Background (3)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5871a93c9f90ecac0800000000000000
-      internalID: -3833115264512551035
+      spriteID: 4b5131a160f869110800000000000000
+      internalID: 1267357601521407412
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Credits Background (1)_0: -3833115264512551035
+      Credits Background (3)_0: 1267357601521407412
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

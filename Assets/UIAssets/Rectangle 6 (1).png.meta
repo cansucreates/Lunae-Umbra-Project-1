@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: bb74a84aac55f6e4e8982e62b1ae3e9c
+guid: e2b85c18638ac454eadd5ee41c177861
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -9147649766486412442
-    second: Rectangle 6_0
+      213: 580485282160343494
+    second: Rectangle 6 (1)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Rectangle 6_0
+      name: Rectangle 6 (1)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 66374e2f0050d0180800000000000000
-      internalID: -9147649766486412442
+      spriteID: 6c97280e94c4e0800800000000000000
+      internalID: 580485282160343494
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Rectangle 6_0: -9147649766486412442
+      Rectangle 6 (1)_0: 580485282160343494
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

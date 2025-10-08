@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2c113226ab42f7745b9ba65482cb49da
+guid: e683d030715693c4f892530d9502238c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4516601252583938603
-    second: Menu Background (1)_0
+      213: 7914284230579661031
+    second: Credits Background (2)_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,24 +96,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Menu Background (1)_0
+      name: Credits Background (2)_0
       rect:
         serializedVersion: 2
         x: 0
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2a9954c8e03eae30800000000000000
-      internalID: 4516601252583938603
+      spriteID: 7e82d27739f25dd60800000000000000
+      internalID: 7914284230579661031
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Menu Background (1)_0: 4516601252583938603
+      Credits Background (2)_0: 7914284230579661031
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
