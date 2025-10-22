@@ -4,5 +4,5 @@ public enum Style
 {
     Victorian,
     Punk,
-    Vampiric,
+    Futuristic,
 }
